@@ -1,0 +1,266 @@
+/* 
+ #AAC9FF;
+    --fds-blue-40: #77A7FF;
+    --fds-blue-60: #1877F2;
+    --fds-blue-70: #2851A3;
+    --fds-blue-80: #1D3C78;
+*/
+
+
+/* Header */
+.header{
+position: fixed;
+background-color: rgb(255, 255, 255);
+z-index: 10;
+margin-top: -.8%;
+}
+.icon{
+    color: #1877F2;
+font-size: 2.5rem;
+margin-top: .2rem;
+position: relative;
+top: .4rem;
+margin-left: .5rem;
+cursor: pointer;
+}
+.search{
+    border-radius: 5rem;
+    background-color: rgb(247, 247, 247);
+    border: hidden;
+    /* width: 26.5%; */
+    position: relative;
+    top: -.1rem;
+    padding: .7rem;
+    margin: .4rem;
+    font-size: 96%;
+}
+.search-bar{
+    display: inline;
+}
+.header-icon{
+    margin-left: 1.8rem;
+}
+.icons{
+    font-size: 1.5rem;
+margin-left: 5.8rem;
+cursor: pointer;
+}
+.header-icons{
+font-size: 1.5rem;
+margin-left: 8rem;
+}
+
+.owner-name{
+    display: inline;
+    font-size: 70%;
+    margin-right: .5rem;
+}
+.header-pic{
+    width: 2.2%;
+    border-radius: 50%;
+position: relative;
+top: .7rem;
+}
+.header-2-icon{
+border-radius: 50%;
+background-color: rgb(241, 241, 252);
+padding: .55rem;
+font-size: 80%;
+}
+.header-2-icon-last{
+border-radius: 100%;
+    background-color: rgb(241, 241, 252);
+    padding: .55rem .7rem;
+    padding-top: .3rem;
+    font-size: 85%;
+    }
+/* sidebar */
+
+.sidebar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    width: 30%;
+    background-color: rgb(241, 241, 252);
+    color: rgb(46, 42, 42);
+}
+.my-pic{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 8%;
+    height: 50%;
+    border-radius: 50%;
+}
+.name{
+    display: inline;
+    position: relative;
+    top: -.7rem;
+    left: .2rem;
+}
+.my-pic-2{
+    margin-top: 1.1rem;
+    margin-bottom: .8rem;
+    margin-left: 1rem;
+    /* width: 8%; */
+    /* height: 50%; */
+    font-size: 140%;
+    border-radius: 50%;
+}
+.friend{
+color:  #4d96f5;
+}
+.group{
+    background-color: #5089f3;
+    color: #fff;
+    font-size:100%;
+    height: 1rem;
+    padding: .4rem;
+    border-radius: 50%;
+}
+.name-2{
+    display: inline;
+    position: relative;
+    top: -.2rem;
+    left: .4rem;
+}
+/* Center side */
+.center-side{
+    width: 39%;
+    margin: auto;
+    position: relative;
+    top: 3rem;
+    /* background-color: brown; */
+} 
+.fb-dp{
+    width: 8%;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: .8rem;
+    border: .2rem solid #1877F2;
+}
+.user-name{
+    display: inline;
+    position: relative;
+    top: -1.8rem;
+    left: .4rem;
+}
+.post-date{
+    font-size: 80%;
+    display: inline;
+    position: relative;
+    top: -.7rem;
+    left: -5.6rem;
+}
+.upload-pic{
+    width: 33rem;
+    margin-bottom: .5rem;
+}
+.like{
+    margin-left: 1rem;
+    font-size :70%;
+    color: #fff;
+    background-color: #1877F2;
+    padding: .3rem;
+    border-radius: 50%;
+}
+.heart{
+    font-size :70%;
+    color: #fff;
+    background-color: red;
+    padding: .3rem;
+    border-radius: 50%;
+}
+.like-name{
+    display: inline;
+    /* font-size: 110%; */
+    color: rgb(80, 74, 74);
+}
+.comments{
+float: right;
+margin-right:1rem ;
+}
+.coment-line{
+    color: rgb(80, 74, 74);
+width: 90%;
+margin: auto;
+margin-top:.6rem;
+margin-bottom: .7rem;
+}
+.feed-back{
+    display: inline;
+color: rgb(80, 74, 74);
+margin-left: 17%;
+font-size: 105%;
+cursor: pointer;
+}
+.feed-back-2{
+ display: inline;
+    color: rgb(80, 74, 74);
+    margin-left: 13%;
+    font-size: 105%;
+    cursor: pointer;
+    }
+    
+.feed-back-3{
+    display: inline;
+    color: rgb(80, 74, 74);
+    margin-left: 13%;
+    font-size: 105%;
+    cursor: pointer;
+}
+.space{
+    margin-top: .5rem;
+background-color: rgb(241, 241, 252) !important;
+height: 2rem !important;
+width: 101%;
+position: relative;
+left: -.1rem;
+}
+/* fb-post-2 */
+.fb-posts-2{
+    
+}
+/* Right side */
+.right-side{
+width:30% ;
+/* margin-top: -1.3rem; */
+padding-top: 4rem;
+color: rgb(46, 42, 42);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+position: fixed;
+left: 69.5%;
+top: 1.9rem;
+background-color: rgb(247, 247, 247);
+}
+.Contacts{
+    text-align: center;
+    margin-left: 6.4rem;
+}
+.contact-heading{
+    font-size: 115%;
+    display: inline;
+/* color: rgb(46, 42, 42) !important; */
+color: rgb(98, 89, 89) !important;
+
+}
+.contract-icon{
+    margin-left: 20%;
+    font-size: 90%;
+}
+.contact-icon{
+    margin-left: 1rem;
+    color: rgb(98, 89, 89) !important;
+}
+.contact-name{
+    display: inline;
+    position: relative;
+    top: -.7rem;
+    left: .3rem;
+}
+.contact-pic{
+    margin-top:1.5rem;
+    margin-bottom: .05rem;
+    margin-left:33.2%;
+    width: 8%;
+    height: 50%;
+    border-radius: 50%;
+}
